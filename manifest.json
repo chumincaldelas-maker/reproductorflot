@@ -1,0 +1,111 @@
+{
+  "name": "Reproductor Flotante - Video Vivo",
+  "short_name": "Reproductor Flotante",
+  "description": "Reproductor de video flotante que se superpone sobre otras aplicaciones",
+  "version": "1.0.0",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#1a1a1a",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "es",
+  "categories": ["entertainment", "multimedia"],
+  "icons": [
+    {
+      "src": "assets/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/screenshot-mobile.png",
+      "sizes": "375x667",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "features": [
+    "Reproducción de video flotante",
+    "Controles personalizados",
+    "Modo pantalla completa",
+    "Soporte para móviles",
+    "Configuración avanzada"
+  ],
+  "shortcuts": [
+    {
+      "name": "Reproducir Video",
+      "short_name": "Play",
+      "description": "Iniciar reproducción del video",
+      "url": "/?action=play",
+      "icons": [
+        {
+          "src": "assets/shortcut-play.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Pantalla Completa",
+      "short_name": "Fullscreen",
+      "description": "Activar modo pantalla completa",
+      "url": "/?action=fullscreen",
+      "icons": [
+        {
+          "src": "assets/shortcut-fullscreen.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

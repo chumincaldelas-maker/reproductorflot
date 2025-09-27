@@ -1,0 +1,43 @@
+# Configuración para GitHub Pages
+title: Reproductor Flotante - Video Vivo
+description: Reproductor de video flotante que se superpone sobre otras aplicaciones
+author: Reproductor Flotante
+url: https://tu-usuario.github.io
+baseurl: /reproductor-flotante
+
+# Configuración de Jekyll
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Configuración de SEO
+seo:
+  type: WebSite
+  name: Reproductor Flotante
+  description: Reproductor de video flotante que se superpone sobre otras aplicaciones
+  url: https://tu-usuario.github.io/reproductor-flotante
+  image: https://tu-usuario.github.io/reproductor-flotante/assets/og-image.png
+
+# Excluir archivos del build
+exclude:
+  - README.md
+  - README-ELECTRON.md
+  - INSTALAR-NODEJS.md
+  - INSTRUCCIONES.md
+  - .github
+  - node_modules
+  - package*.json
+  - main.js
+  - server.py
+  - *.bat
+  - *.sh
+  - reproductor-simple.html
+  - reproductor-electron.html
+  - reproductor-kiosco.html
+  - config.js

@@ -1,0 +1,51 @@
+{
+  "name": "reproductor-flotante",
+  "version": "1.0.0",
+  "description": "Reproductor de video flotante que se superpone sobre otras aplicaciones",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "dist": "electron-builder --publish=never"
+  },
+  "keywords": [
+    "video",
+    "player",
+    "floating",
+    "overlay"
+  ],
+  "author": "Reproductor Flotante",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4"
+  },
+  "build": {
+    "appId": "com.reproductor.flotante",
+    "productName": "Reproductor Flotante",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "reproductor-simple.html",
+      "styles.css",
+      "script.js",
+      "config.js",
+      "media/**/*",
+      "enlaces/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "icon.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "icon.png"
+    }
+  }
+}

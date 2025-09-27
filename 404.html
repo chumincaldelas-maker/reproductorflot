@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página no encontrada - Reproductor Flotante</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .error-container {
+            max-width: 600px;
+            padding: 40px;
+            background: rgba(40, 40, 40, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        }
+        .error-code {
+            font-size: 120px;
+            font-weight: bold;
+            color: #4CAF50;
+            margin: 0;
+            text-shadow: 0 0 20px rgba(76, 175, 80, 0.5);
+        }
+        .error-message {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .error-description {
+            font-size: 16px;
+            color: #ccc;
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            background: #4CAF50;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 20px 10px;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+        }
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #4CAF50;
+        }
+        .btn-secondary:hover {
+            background: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1 class="error-code">404</h1>
+        <h2 class="error-message">Página no encontrada</h2>
+        <p class="error-description">
+            Lo sentimos, la página que buscas no existe o ha sido movida.
+            <br>
+            Pero no te preocupes, puedes volver al reproductor flotante.
+        </p>
+        <a href="/" class="btn">🏠 Ir al Reproductor</a>
+        <a href="javascript:history.back()" class="btn btn-secondary">← Volver atrás</a>
+    </div>
+</body>
+</html>

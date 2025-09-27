@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tu-usuario.github.io/reproductor-flotante/sitemap.xml
+
+# Disallow certain files
+Disallow: /assets/
+Disallow: /media/
+Disallow: /.github/
+Disallow: /node_modules/
+Disallow: /*.bat
+Disallow: /*.sh
+Disallow: /*.py
+Disallow: /main.js
+Disallow: /package*.json
+Disallow: /sw.js
